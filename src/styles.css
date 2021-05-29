@@ -187,13 +187,24 @@ a {
   outline: 0;
 }
 
+.mailto{
+  font-size:30px;
+}
+
+.mailto:hover {
+  color: #064420;
+}
+
+.menu-icon {
+  font-size:90px
+}
+
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
     border: 0;
     background-color: transparent;
     color: #faf1e6;
-    font-size: 30px;
     margin: 20px;
     align-self: flex-end;
   }
@@ -202,9 +213,13 @@ a {
     display: none;
     background-color: #064420;
     margin: 0ppx;
+    font-size:40px;
+    letter-spacing:5px;
+    line-height:2;
+    font-weight:bold;
   }
 
-  ul.show {
+ ul.show {
     display: block;
   }
 
@@ -212,6 +227,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     background-color: #064420;
+    
   }
 
   .logo {
