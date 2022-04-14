@@ -1,22 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bitter:ital,wght@1,300&family=Cinzel:wght@500&family=Lobster&family=M+PLUS+1+Code&family=Pacifico&family=Palette+Mosaic&family=Rubik+Glitch&family=Source+Sans+3:wght@300&family=Ubuntu+Mono:wght@700&display=swap');
+
 body {
-  font-family: "Prata", serif;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-weight: 900;
   margin: 0;
 }
 
 section {
-  background: #faf1e6;
+  background: #143F6B;
 }
 
 .hero {
-  background: #faf1e6;
+  background: #143F6B;
   height: 100vh;
   color: #000;
   font-size: 40px;
 }
 
 footer {
-  background: #faf1e6;
-  color: #000;
+  background: #143F6B;
+  color: #F55353;
   text-align: center;
   padding: 80px;
 }
@@ -41,17 +44,18 @@ li {
 h1 {
   font-size: 150px;
   margin: 0;
-  font-family: "Sacramento", cursive;
+  letter-spacing:5px;
   
 }
 
 h1:hover {
-    color: #064420;
+    color: #F55353;
     transition: 0.5s;
 }
 
 h2 {
   font-size: 50px;
+  letter-spacing:10px;
 }
 
 p {
@@ -81,7 +85,7 @@ p {
   width: 200px;
   height: 45px;
   border-radius: 30px;
-  background-color: #064420;
+  background-color: #F55353;
   text-align: center;
   font-size: 30px;
   font-weight: 300;
@@ -95,8 +99,8 @@ p {
 }
 
 .button:active {
-  background-color: #064420;
-  color: #000;
+  background-color: #F55353;
+  color: #F55353;
 }
 
 .socials {
@@ -140,14 +144,15 @@ p {
 .project-card {
   width: 300px;
   height: 500px;
-  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  box-shadow: 5px 5px 20px #fff;
   margin: 10px;
-  background-color:#e4efe7;
+  background-color:#fff;
 }
 
 .project-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 80px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -171,12 +176,12 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #064420;
+  color: #F55353;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #F55353;
 }
 
 .hamburger {
@@ -192,7 +197,7 @@ a {
 }
 
 .mailto:hover {
-  color: #064420;
+  color: #fff;
 }
 
 .menu-icon {
@@ -208,14 +213,14 @@ a {
     display: block;
     border: 0;
     background-color: transparent;
-    color: #faf1e6;
+    color: #F55353;
     margin: 20px;
     align-self: flex-end;
   }
 
   ul {
     display: none;
-    background-color: #064420;
+    background-color: #143F6B;
     margin: 0ppx;
     font-size:40px;
     letter-spacing:5px;
@@ -230,7 +235,7 @@ a {
   nav {
     display: flex;
     flex-direction: column-reverse;
-    background-color: #064420;
+    background-color: #143F6B;
     
   }
 
